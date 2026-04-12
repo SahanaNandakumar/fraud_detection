@@ -1,0 +1,24 @@
+{
+  "best_model": "XGBoost",
+  "roc_auc": 0.9683850045364235,
+  "model_comparison": [
+    {
+      "name": "Logistic Regression",
+      "roc_auc": 0.9559
+    },
+    {
+      "name": "Random Forest",
+      "roc_auc": 0.9657
+    },
+    {
+      "name": "XGBoost (Winner)",
+      "roc_auc": 0.9684
+    }
+  ],
+  "dataset_stats": {
+    "total_records": 284807,
+    "fraud_cases": 492,
+    "legit_cases": 284315,
+    "fraud_pct": 0.1727485630620034
+  }
+}
